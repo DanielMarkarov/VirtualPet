@@ -1,7 +1,6 @@
 void setup()
 {
   size(300,300);
-
 }
 
 void draw()
@@ -16,9 +15,18 @@ void draw()
   fill(#E6F8FA);
   rect(-1000, -1000, 10000, 10000);
   
-  //cloud in the sky 
-  
-  
+  //cloud in the sky are highly irregular shapes. this may be difficult
+  fill(#FAFFFF);
+  noStroke();
+  ellipse(265, -20, 80, 50);
+  ellipse(245, -40, 40, 40);
+  ellipse(235, 0, 35, 35);
+  ellipse(280, -40, 45, 45);
+  ellipse(290, 0, 30, 30);
+  ellipse(260, 5, 35, 35);
+  ellipse(300, -25, 40, 40);
+  ellipse(230, -20, 35, 35);
+  stroke(0);
   //ice???
   fill(#E8FDFF);
   rect(-1000, 200, 10000, 150);
@@ -85,5 +93,4 @@ void draw()
   //gold hat buckle thing like the posh man that he is
   fill(#FAD817);
   rect(140, 15, 20, 20, 3);
-  
 }
